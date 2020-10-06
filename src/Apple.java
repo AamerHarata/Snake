@@ -9,6 +9,7 @@ public class Apple extends Geometry{
 
     //For now the apple has only color as property (will be replace by an image). In addition to the inherited properties (x, y, width and height) from Geometry
     Color color;
+    Color newColor;
 
     ArrayList<Integer> randomX= new ArrayList<>();;
     ArrayList<Integer> randomY = new ArrayList<>();;
